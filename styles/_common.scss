@@ -10,6 +10,17 @@
     color: $green;
   }
 }
+
+.title-logo2 {
+  font-size: $xl-6;
+  -webkit-text-stroke: 1px $gradient2;
+  color: whitesmoke;
+  span {
+    font-size: $xl-5;
+    -webkit-text-stroke: $green;
+    color: $green;
+  }
+}
 .logobg {
   font-size: $xll;
   span {
