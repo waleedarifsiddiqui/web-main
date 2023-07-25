@@ -276,7 +276,7 @@ export const teamdata = [
   },
   {
     id: 3,
-    title: "Ishrah Memon",
+    title: "Inshrah Memon",
     cover: "../images/t2.jpg",
     post: "SQA ENGINEER",
   },
