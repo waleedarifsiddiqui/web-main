@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
