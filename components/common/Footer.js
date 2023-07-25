@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='QA' caption='R-Tech' className='logobg' />
+              <TitleLogo title='QA' caption='R-Tech' className='logobg'/>
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 11 am to 6 pm
@@ -24,37 +24,37 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='http://localhost:3000/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='http://localhost:3000/team'>Our team</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='http://localhost:3000/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='http://localhost:3000/blog'>Blog</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/'>Demo design system</Link>
-              </li>
+              </li> */}
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='http://localhost:3000/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='http://localhost:3000/services/1'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='http://localhost:3000/services/3'>Branding & Creative Services</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='http://localhost:3000/services/4'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='http://localhost:3000/services/2'>E-Commerce</Link>
               </li>
             </ul>
             <ul>
