@@ -117,24 +117,24 @@ export const expertise = [
   {
     id: 5,
     title: "UX/UI Design",
-    cover: "../images/e4.jpg",
+    cover: "../images/e5.jpg",
     desc: [
       { text: "Visual identity" },
       { text: "Branding for social media" },
       { text: "Custom illustrations" },
     ],
     para6:
-    " We feel that knowing your brand's core and values is essential before beginning the design process.",
+    " We recognize the significance of providing your website visitors with a flawless and engaging user experience.",
     para1:
-      "Welcome to the Branding and Creative services of our organization! We recognize the significance of providing your website visitors with a flawless and engaging user experience. We are here to assist you boost your online presence and leave a lasting impact on your audience with our team of professional UI/UX designers.",
+      "Our UI designers have an excellent sense of aesthetics and a thorough grasp of current design trends. We create visually outstanding user interfaces that not only capture the essence of your company but also offer easy navigation and a pleasurable user experience.",
     para2:
-      "Our team does extensive research and works closely with you to get a thorough grasp of your brand's personality, target audience, and industry landscape. This guarantees that the final logo design is properly aligned with the goal of your company and resonates with your target market.",
+      "At R-Tech believes that great design goes beyond appearances. Our UX designers are dedicated to developing meaningful and intuitive interactions between your users and your digital products. To achieve best user happiness and engagement, we meticulously build wireframes, conduct usability testing, and iterate on designs.",
     para3:
-      "The user experience is key to our approach. We think that every user interaction with your website should be simple and pleasurable. Our UI/UX designers are experts in creating aesthetically appealing interfaces that not only capture users' attention but also guide them to the necessary actions. We can help you construct a user-friendly navigation system or create interactive components that increase engagement.",
-      para4:
-      "We value collaboration and believe in your involvement throughout the design process. Our iterative design approach allows us to collect your feedback, make any necessary modifications, and refine the logo until it exceeds your expectations. We believe your input is invaluable in creating a logo that truly represents your brand and connects with your audience.",
-      para5:
-      "Our team possesses the expertise and experience necessary to assist you in achieving your goals. We collaborate closely with our clients to understand their specific needs and requirements. At R-Tech, we are committed to provide our clients with the best possible service. We work tirelessly to ensure that your project is completed on time and within budget.",
+      "In today's mobile-driven era, having a website that adapts to numerous devices and screen sizes is critical. Our staff specializes in responsive design, so your website will look and work perfectly on smartphones, tablets, and desktop computers.",
+      // para4:
+      // "We value collaboration and believe in your involvement throughout the design process. Our iterative design approach allows us to collect your feedback, make any necessary modifications, and refine the logo until it exceeds your expectations. We believe your input is invaluable in creating a logo that truly represents your brand and connects with your audience.",
+      // para5:
+      // "Our team possesses the expertise and experience necessary to assist you in achieving your goals. We collaborate closely with our clients to understand their specific needs and requirements. At R-Tech, we are committed to provide our clients with the best possible service. We work tirelessly to ensure that your project is completed on time and within budget.",
   },
 ];
 export const testimonial = [
