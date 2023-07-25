@@ -20,7 +20,7 @@ const SinglePost = () => {
           <div className='heading-title'>
             {/* <TitleSm title='' /> <br /> */}
             {/* <br /> */}
-            <Title title="Web Development" className='title-bg' />
+            <title>{post?.title}</title>
             
             <div className='img py'>
             <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
