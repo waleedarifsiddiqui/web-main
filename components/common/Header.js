@@ -43,8 +43,10 @@ const Header = () => {
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
+            </Link> 
+            <Link href="https://web-main-eight.vercel.app/contact">
+            <button className='button-primary' href>book a consultation</button>
             </Link>
-            <button className='button-primary'>book a consultation</button>
           </nav>
           <button className="menucontrol" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>
