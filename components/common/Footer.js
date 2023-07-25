@@ -24,37 +24,37 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='http://localhost:3000/agency'>About agency</Link>
+                <Link href='https://web-main-eight.vercel.app/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='http://localhost:3000/team'>Our team</Link>
+                <Link href='https://web-main-eight.vercel.app/team'>Our team</Link>
               </li>
               <li>
-                <Link href='http://localhost:3000/showcase'>Showcase</Link>
+                <Link href='https://web-main-eight.vercel.app/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='http://localhost:3000/blog'>Blog</Link>
+                <Link href='https://web-main-eight.vercel.app/blog'>Blog</Link>
               </li>
               {/* <li>
                 <Link href='/'>Demo design system</Link>
               </li> */}
               <li>
-                <Link href='http://localhost:3000/contact'>Contact</Link>
+                <Link href='https://web-main-eight.vercel.app/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='http://localhost:3000/services/1'>Web Design & Development</Link>
+                <Link href='https://web-main-eight.vercel.app/services/1'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='http://localhost:3000/services/3'>Branding & Creative Services</Link>
+                <Link href='https://web-main-eight.vercel.app/services/3'>Branding & Creative Services</Link>
               </li>
               <li>
-                <Link href='http://localhost:3000/services/4'>Digital Marketing</Link>
+                <Link href='https://web-main-eight.vercel.app/services/4'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='http://localhost:3000/services/2'>E-Commerce</Link>
+                <Link href='https://web-main-eight.vercel.app/services/2'>E-Commerce</Link>
               </li>
             </ul>
             <ul>
