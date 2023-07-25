@@ -35,7 +35,7 @@ const Footer = () => {
                 <Link href='https://web-main-eight.vercel.app/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/blog'>Blog</Link>
+                <Link href='https://web-main-eight.vercel.app/blogs'>Blog</Link>
               </li>
               {/* <li>
                 <Link href='/'>Demo design system</Link>
