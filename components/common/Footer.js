@@ -92,7 +92,7 @@ const Footer = () => {
             <div className='connect'>
               <span>R-TECHQA PAKISTAN</span>
               <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <Link href="/"><span>TERMS & CONDITIONS</span></Link>
             </div>
           </div>
         </div>
