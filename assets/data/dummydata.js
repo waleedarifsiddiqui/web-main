@@ -102,19 +102,17 @@ export const expertise = [
       { text: "Custom illustrations" },
     ],
     para6:
-    " We recognize that a logo is the visual representation of your brand and that it is critical in establishing an impression on your target audience.",
+    " We feel that knowing your brand's core and values is essential before beginning the design process.",
     para1:
       "Welcome to the Branding and Creative services of our organization! We recognize the significance of providing your website visitors with a flawless and engaging user experience. We are here to assist you boost your online presence and leave a lasting impact on your audience with our team of professional UI/UX designers.",
     para2:
-      "Whether you're seeking to automate your testing process or require assistance with manual QA, we're here to help.",
+      "Our team does extensive research and works closely with you to get a thorough grasp of your brand's personality, target audience, and industry landscape. This guarantees that the final logo design is properly aligned with the goal of your company and resonates with your target market.",
     para3:
       "The user experience is key to our approach. We think that every user interaction with your website should be simple and pleasurable. Our UI/UX designers are experts in creating aesthetically appealing interfaces that not only capture users' attention but also guide them to the necessary actions. We can help you construct a user-friendly navigation system or create interactive components that increase engagement.",
       para4:
-      "Our manual QA services are tailored to meet your specific needs and requirements. We work closely with our clients to understand their software and business objectives, and we develop a custom testing plan to ensure that your software is of the highest quality",
+      "We value collaboration and believe in your involvement throughout the design process. Our iterative design approach allows us to collect your feedback, make any necessary modifications, and refine the logo until it exceeds your expectations. We believe your input is invaluable in creating a logo that truly represents your brand and connects with your audience.",
       para5:
       "Our team possesses the expertise and experience necessary to assist you in achieving your goals. We collaborate closely with our clients to understand their specific needs and requirements. At R-Tech, we are committed to provide our clients with the best possible service. We work tirelessly to ensure that your project is completed on time and within budget.",
-    para7:
-      "If you're seeking dependable and efficient web automation and manual QA services, look no further than R-Tech. Contact us today to learn more about our services and how we can assist you in achieving your business objectives.",
   },
 ];
 export const testimonial = [
