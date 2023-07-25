@@ -94,7 +94,7 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Digital Marketing",
     cover: "../images/e4.jpg",
     desc: [
       { text: "Visual identity" },
