@@ -271,25 +271,25 @@ export const teamdata = [
   {
     id: 2,
     title: "Zeeshan Israr",
-    cover: "../images/t2.jpg",
+    cover: "../images/t1.jpg",
     post: "TEAM MANAGER",
   },
   {
     id: 3,
     title: "Ishrah Memon",
-    cover: "../images/t3.jpg",
+    cover: "../images/t2.jpg",
     post: "SQA ENGINEER",
   },
   {
     id: 4,
     title: "Khadija Shujat",
-    cover: "../images/t4.jpg",
+    cover: "../images/t2.jpg",
     post: "SQA ENGINEER",
   },
   {
     id: 5,
     title: "Waleed Arif",
-    cover: "../images/t5.jpg",
+    cover: "../images/t1.jpg",
     post: "PROGRAMMER",
   },
   // {
