@@ -23,16 +23,16 @@ const SinglePost = () => {
             <Title title="Web Development" className='title-bg' />
             
             <div className='img py'>
-            {/* <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' /> */}
+            <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
             </div>
             <div className='desc'>
               <TitleSm title={post.para6} />
-              <p className='desc-p'>{post.para1}</p>
-              <p className='desc-p'>{post.para2}</p>
-              <p className='desc-p'>{post.para3}</p>
-              <p className='desc-p'>{post.para4}</p>
-              <p className='desc-p'>{post.para5}</p>
-              <p className='desc-p'>{post.para7}</p>
+              <p className='desc-p'>{post?.para1}</p>
+              <p className='desc-p'>{post?.para2}</p>
+              <p className='desc-p'>{post?.para3}</p>
+              <p className='desc-p'>{post?.para4}</p>
+              <p className='desc-p'>{post?.para5}</p>
+              <p className='desc-p'>{post?.para7}</p>
             </div>
           </div>
           <Banner />
