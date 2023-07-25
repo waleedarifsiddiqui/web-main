@@ -26,7 +26,7 @@ const SinglePost = () => {
             <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
             </div>
             <div className='desc'>
-              <TitleSm title={post.para6} />
+              <TitleSm title={post?.para6} />
               <p className='desc-p'>{post?.para1}</p>
               <p className='desc-p'>{post?.para2}</p>
               <p className='desc-p'>{post?.para3}</p>
