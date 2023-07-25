@@ -250,7 +250,7 @@ export const teamdata = [
     id: 2,
     title: "Zeeshan Israr",
     cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    post: "TEAM MANAGER",
   },
   {
     id: 3,
