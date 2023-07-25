@@ -50,7 +50,7 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "QA Testing",
+    title: "Quality Assurance",
     cover: "../images/e2.jpg",
     desc: [
       { text: "Functional testing" },
@@ -104,7 +104,7 @@ export const expertise = [
     para6:
     " We recognize that a logo is the visual representation of your brand and that it is critical in establishing an impression on your target audience.",
     para1:
-      "Welcome to the UI/UX designer services of our organization! We recognize the significance of providing your website visitors with a flawless and engaging user experience. We are here to assist you boost your online presence and leave a lasting impact on your audience with our team of professional UI/UX designers.",
+      "Welcome to the Branding and Creative services of our organization! We recognize the significance of providing your website visitors with a flawless and engaging user experience. We are here to assist you boost your online presence and leave a lasting impact on your audience with our team of professional UI/UX designers.",
     para2:
       "Whether you're seeking to automate your testing process or require assistance with manual QA, we're here to help.",
     para3:

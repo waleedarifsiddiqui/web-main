@@ -50,16 +50,13 @@ const Footer = () => {
                 <Link href='https://web-main-eight.vercel.app/services/1'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/2'>QA Testing</Link>
+                <Link href='https://web-main-eight.vercel.app/services/2'>Quality Assurance</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/4'>Branding & Creative Services</Link>
-              </li>
-              {/* <li>
                 <Link href='https://web-main-eight.vercel.app/services/4'>Digital Marketing</Link>
-              </li> */}
+              </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/3'>E-Commerce</Link>
+                <Link href='https://web-main-eight.vercel.app/services/3'> E-Commerce</Link>
               </li>
             </ul>
             <ul>
