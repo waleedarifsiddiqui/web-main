@@ -51,6 +51,8 @@ header {
       display: flex;
       flex-direction: column;
       z-index: 999;
+      border-bottom-left-radius:10% 10%;
+      border-bottom-right-radius:10% 10%;
       a {
         width: 100%;
         display: block;
