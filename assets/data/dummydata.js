@@ -108,7 +108,7 @@ export const expertise = [
     para2:
       "We provide complete ON-Page SEO and Off-Page SEO with the appropriate methods and plans that truly match your exact goals for the high ranking of the website. It also has a staff of SEO experts.",
     para3:
-      " We specialize in Google Marketing services that help sell your products and services, develop a strong online business presence, and promote your brand. They offer four major platforms, including Google AdWords, Google Display, Google SEO, and Google Maps. R-TechQA is a trusted agency that provides Google Marketing services.",
+      "We specialize in Google Marketing services that help sell your products and services, develop a strong online business presence, and promote your brand. They offer four major platforms, including Google AdWords, Google Display, Google SEO, and Google Maps. R-TechQA is a trusted agency that provides Google Marketing services.",
   },
   {
     id: 5,
