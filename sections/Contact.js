@@ -12,6 +12,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { BsFacebook } from "react-icons/bs";
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
+
 const Contact = () => {
   const form = useRef();
 
@@ -115,11 +116,11 @@ const Contact = () => {
                 <div className="grid-2">
                   <div className="inputs">
                     <span>Name</span>
-                    <input type="text" placeholder="Full Name" />
+                    <input type="text" placeholder="First and last name" />
                   </div>
                   <div className="inputs">
                     <span>Email</span>
-                    <input type="email" placeholder="Email" />
+                    <input type="email" placeholder="Enter email address" />
                   </div>
                 </div>
                 <div className="grid-2">
