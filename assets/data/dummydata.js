@@ -124,7 +124,7 @@ export const expertise = [
     para1:
       "Our UI designers have an excellent sense of aesthetics and a thorough grasp of current design trends. We create visually outstanding user interfaces that not only capture the essence of your company but also offer easy navigation and a pleasurable user experience.",
     para2:
-      "At R-Tech believes that great design goes beyond appearances. Our UX designers are dedicated to developing meaningful and intuitive interactions between your users and your digital products. To achieve best user happiness and engagement, we meticulously build wireframes, conduct usability testing, and iterate on designs.",
+      "We believe that great design goes beyond appearances. Our UX designers are dedicated to developing meaningful and intuitive interactions between your users and your digital products. To achieve best user happiness and engagement, we meticulously build wireframes, conduct usability testing, and iterate on designs.",
     para3:
       "In today's mobile-driven era, having a website that adapts to numerous devices and screen sizes is critical. Our staff specializes in responsive design, so your website will look and work perfectly on smartphones, tablets, and desktop computers.",
       // para4:
