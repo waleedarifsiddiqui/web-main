@@ -12,8 +12,34 @@ import { BiUserCircle } from "react-icons/bi";
 import { BsFacebook } from "react-icons/bs";
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
+import { useFormik } from "formik";
+import { signUpSchema } from "@/schemas";
+
+const initialValues = {
+  user_name: "",
+  email: "",
+  budget: "",
+  time: "",
+  message: "",
+};
 
 const Contact = () => {
+  const { values, errors, touched, handleBlur, handleChange, handleSubmit } =
+    useFormik({
+      initialValues,
+      validationSchema: signUpSchema,
+      onSubmit: (values, action) => {
+        console.log(
+          "🚀 ~ file: Registration.jsx ~ line 11 ~ Registration ~ values",
+          values
+        );
+        action.resetForm();
+      },
+    });
+    console.log(
+      "🚀 ~ file: Registration.jsx ~ line 11 ~ Registration ~ values",
+      errors
+    );
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -112,30 +138,82 @@ const Contact = () => {
                 proposal.{" "}
               </p>
 
-              <form ref={form} onSubmit={sendEmail}>
+              <form ref={form} onSubmit={handleSubmit}>
                 <div className="grid-2">
                   <div className="inputs">
-                    <span>Name</span>
-                    <input type="text" name="user_name" placeholder="First and last name" />
+                    <label htmlFor="name">Name</label>
+                    <input
+                      type="text"
+                      name="user_name"
+                      id="user_name"
+                      placeholder="First and last name"
+                      value={values.user_name}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                    />
+                    {touched.user_name && errors.user_name ? (
+                      <p className="form-error">{errors.user_name}</p>
+                    ) : null}
                   </div>
                   <div className="inputs">
-                    <span>Email</span>
-                    <input type="email" name="user_email" placeholder="Enter email address" />
+                    <label htmlFor="email">Email</label>
+                    <input
+                      type="email"
+                      autoComplete="off"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      value={values.email}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                    />
+                    {errors.email && touched.email ? (
+                      <p className="form-error">{errors.email}</p>
+                    ) : null}
                   </div>
                 </div>
                 <div className="grid-2">
                   <div className="inputs">
                     <span>your budget</span>
-                    <input type="text" />
+                    <input
+                      type="text"
+                      id="budget"
+                      value={values.budget}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                    />
+                    {errors.budget && touched.budget ? (
+                      <p className="form-error">{errors.budget}</p>
+                    ) : null}
                   </div>
                   <div className="inputs">
                     <span>timeframe</span>
-                    <input type="text" />
+                    <input
+                      type="text"
+                      id="time"
+                      value={values.time}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                    />
+                    {errors.time && touched.time ? (
+                      <p className="form-error">{errors.time}</p>
+                    ) : null}
                   </div>
                 </div>
                 <div className="inputs">
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                  <textarea name="message" cols="30" rows="10"></textarea>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    value={values.message}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  ></textarea>
+                  {errors.message && touched.message ? (
+                    <p className="form-error">{errors.message}</p>
+                  ) : null}
                 </div>
                 <button type="submit" value="Send" className="button-primary">
                   Submit
