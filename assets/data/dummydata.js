@@ -102,17 +102,13 @@ export const expertise = [
       { text: "Custom illustrations" },
     ],
     para6:
-    " We feel that knowing your brand's core and values is essential before beginning the design process.",
+    " With clear digital directives and a better grasp of your brand's aims and objectives, we reimagine our interactions with your company.",
     para1:
-      "Welcome to the Branding and Creative services of our organization! We recognize the significance of providing your website visitors with a flawless and engaging user experience. We are here to assist you boost your online presence and leave a lasting impact on your audience with our team of professional UI/UX designers.",
+      "Everyone now needs social interaction because the world is becoming increasingly filled with digital items. We are here to help you find the best strategic digital solutions to your challenging issues and to effortlessly deliver amazing, quantifiable digital services to numerous clients. Through our top-notch effective services, we dig deep into your company and begin the operational research to work with your project.",
     para2:
-      "Our team does extensive research and works closely with you to get a thorough grasp of your brand's personality, target audience, and industry landscape. This guarantees that the final logo design is properly aligned with the goal of your company and resonates with your target market.",
+      "We provide complete ON-Page SEO and Off-Page SEO with the appropriate methods and plans that truly match your exact goals for the high ranking of the website. It also has a staff of SEO experts.",
     para3:
-      "The user experience is key to our approach. We think that every user interaction with your website should be simple and pleasurable. Our UI/UX designers are experts in creating aesthetically appealing interfaces that not only capture users' attention but also guide them to the necessary actions. We can help you construct a user-friendly navigation system or create interactive components that increase engagement.",
-      para4:
-      "We value collaboration and believe in your involvement throughout the design process. Our iterative design approach allows us to collect your feedback, make any necessary modifications, and refine the logo until it exceeds your expectations. We believe your input is invaluable in creating a logo that truly represents your brand and connects with your audience.",
-      para5:
-      "Our team possesses the expertise and experience necessary to assist you in achieving your goals. We collaborate closely with our clients to understand their specific needs and requirements. At R-Tech, we are committed to provide our clients with the best possible service. We work tirelessly to ensure that your project is completed on time and within budget.",
+      " We specialize in Google Marketing services that help sell your products and services, develop a strong online business presence, and promote your brand. They offer four major platforms, including Google AdWords, Google Display, Google SEO, and Google Maps. R-TechQA is a trusted agency that provides Google Marketing services.",
   },
   {
     id: 5,
