@@ -19,47 +19,47 @@ const Footer = () => {
               <br />
               <h3>+1 001 234 5678</h3>
               <br />
-              <Link href="https://web-main-eight.vercel.app/contact">
+              <Link href="/contact">
               <button className='button-primary'>Request for quote</button>
               </Link>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='https://web-main-eight.vercel.app/agency'>About agency</Link>
+                <Link href='/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/team'>Our team</Link>
+                <Link href='/team'>Our team</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/showcase'>Showcase</Link>
+                <Link href='/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/blogs'>Blog</Link>
+                <Link href='/blogs'>Blog</Link>
               </li>
               {/* <li>
                 <Link href='/'>Demo design system</Link>
               </li> */}
               <li>
-                <Link href='https://web-main-eight.vercel.app/contact'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/1'>Web Design & Development</Link>
+                <Link href='/services/1'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/2'>Quality Assurance</Link>
+                <Link href='/services/2'>Quality Assurance</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/4'>Digital Marketing</Link>
+                <Link href='/services/4'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/3'> E-Commerce</Link>
+                <Link href='/services/3'> E-Commerce</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/5'> UX/UI Design</Link>
+                <Link href='/services/5'> UX/UI Design</Link>
               </li>
             </ul>
             <ul>
