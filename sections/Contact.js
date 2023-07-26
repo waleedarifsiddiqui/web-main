@@ -12,6 +12,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { BsFacebook } from "react-icons/bs";
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
@@ -29,9 +30,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success('Email successfully sent!')
         },
         (error) => {
           console.log(error.text);
+          toast.error("This didn't work. Please try again.")
         }
       );
     e.target.reset();
