@@ -35,6 +35,7 @@ const Contact = () => {
           values
         );
         action.resetForm();
+        toast.success('Form successfully submitted!')
       },
     });
     console.log(
@@ -57,7 +58,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success('Form successfully submitted!')
+          
         },
         (error) => {
           console.log(error.text);
