@@ -182,6 +182,7 @@ const Contact = () => {
                     <span>your budget*</span>
                     <input
                       type="text"
+                      name="budget"
                       id="budget"
                       value={values.budget}
                       onChange={handleChange}
@@ -196,6 +197,7 @@ const Contact = () => {
                     <input
                       type="text"
                       id="time"
+                      name="time"
                       value={values.time}
                       onChange={handleChange}
                       onBlur={handleBlur}
