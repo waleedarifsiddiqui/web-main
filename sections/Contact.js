@@ -14,6 +14,7 @@ import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 import { useFormik } from "formik";
 import { signUpSchema } from "@/schemas";
+import { toast } from "react-hot-toast";
 
 const initialValues = {
   user_name: "",
@@ -44,10 +45,11 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    handleSubmit();
 
     emailjs
       .sendForm(
-        "service_u6h66va",
+        "service_q3kbgin",
         "template_wumoakb",
         form.current,
         "xzVT1h7u_hXCEJqEJ"
@@ -55,6 +57,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success('Form successfully submitted!')
         },
         (error) => {
           console.log(error.text);
@@ -63,6 +66,7 @@ const Contact = () => {
     e.target.reset();
   };
 
+  
   return (
     <>
       <section className="contact bg-top">
@@ -138,15 +142,15 @@ const Contact = () => {
                 proposal.{" "}
               </p>
 
-              <form ref={form} onSubmit={handleSubmit}>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="grid-2">
                   <div className="inputs">
-                    <label htmlFor="name">Name</label>
+                    <label htmlFor="name">Name*</label>
                     <input
                       type="text"
                       name="user_name"
                       id="user_name"
-                      placeholder="First and last name"
+                      placeholder="Enter your name"
                       value={values.user_name}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -156,13 +160,13 @@ const Contact = () => {
                     ) : null}
                   </div>
                   <div className="inputs">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">Email*</label>
                     <input
                       type="email"
                       autoComplete="off"
                       name="email"
                       id="email"
-                      placeholder="Email"
+                      placeholder="Enter your email"
                       value={values.email}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -174,7 +178,7 @@ const Contact = () => {
                 </div>
                 <div className="grid-2">
                   <div className="inputs">
-                    <span>your budget</span>
+                    <span>your budget*</span>
                     <input
                       type="text"
                       id="budget"
@@ -187,7 +191,7 @@ const Contact = () => {
                     ) : null}
                   </div>
                   <div className="inputs">
-                    <span>timeframe</span>
+                    <span>timeframe*</span>
                     <input
                       type="text"
                       id="time"
