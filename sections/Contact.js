@@ -166,7 +166,7 @@ const Contact = () => {
                       autoComplete="off"
                       name="email"
                       id="email"
-                      placeholder="Enter your email"
+                      placeholder="random@email.com"
                       value={values.email}
                       onChange={handleChange}
                       onBlur={handleBlur}
