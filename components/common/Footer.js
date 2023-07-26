@@ -56,7 +56,7 @@ const Footer = () => {
                 <Link href='https://web-main-eight.vercel.app/services/4'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='https://web-main-eight.vercel.app/services/3'> E-Commerce</Link>
+                <Link href='/services/3'> E-Commerce</Link>
               </li>
               <li>
                 <Link href='https://web-main-eight.vercel.app/services/5'> UX/UI Design</Link>
