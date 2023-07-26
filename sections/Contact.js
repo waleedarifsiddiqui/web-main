@@ -116,11 +116,11 @@ const Contact = () => {
                 <div className="grid-2">
                   <div className="inputs">
                     <span>Name</span>
-                    <input type="text" placeholder="First and last name" />
+                    <input type="text" name="user_name" placeholder="First and last name" />
                   </div>
                   <div className="inputs">
                     <span>Email</span>
-                    <input type="email" placeholder="Enter email address" />
+                    <input type="email" name="user_email" placeholder="Enter email address" />
                   </div>
                 </div>
                 <div className="grid-2">
@@ -135,9 +135,9 @@ const Contact = () => {
                 </div>
                 <div className="inputs">
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                  <textarea cols="30" rows="10"></textarea>
+                  <textarea name="message" cols="30" rows="10"></textarea>
                 </div>
-                <button type="submit" className="button-primary">
+                <button type="submit" value="Send" className="button-primary">
                   Submit
                 </button>
               </form>
