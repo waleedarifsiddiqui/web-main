@@ -87,7 +87,7 @@ const Contact = () => {
                 </div>
                 <div className="box">
                   <IoLocationOutline size={30} className="icons" />
-                  <h3>Karachi</h3>
+                  <h3>Houston</h3>
                   <span>
                   Houston, TX USA
                   </span>
