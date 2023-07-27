@@ -89,8 +89,7 @@ const Contact = () => {
                   <IoLocationOutline size={30} className="icons" />
                   <h3>Karachi</h3>
                   <span>
-                    Office No. 303, Badar Commercial Street 7A Plot No. 51,
-                    Phase V South, Karachi, 75500, Pakistan
+                  Houston, TX USA
                   </span>
                 </div>
                 <div className="box">

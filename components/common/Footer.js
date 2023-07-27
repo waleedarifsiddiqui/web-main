@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>281-407-1414 </h3>
               <br />
               <Link href="/contact">
               <button className='button-primary'>Request for quote</button>
@@ -93,7 +93,7 @@ const Footer = () => {
               <span>© 2023 R-TECHQA. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>R-TECHQA PAKISTAN</span>
+              <span>R-TECHQA</span>
               <span> &nbsp; | &nbsp; </span>
               <Link href="/"><span>TERMS & CONDITIONS</span></Link>
             </div>
